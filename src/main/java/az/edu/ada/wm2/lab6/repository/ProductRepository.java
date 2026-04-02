@@ -9,7 +9,6 @@ import java.util.UUID;
 
 public interface ProductRepository extends JpaRepository<Product, UUID> {
 
-    // Spring Data derives the SQL from the method name automatically
     List<Product> findByExpirationDateBefore(LocalDate date);
 
     List<Product> findByPriceBetween(BigDecimal min, BigDecimal max);
