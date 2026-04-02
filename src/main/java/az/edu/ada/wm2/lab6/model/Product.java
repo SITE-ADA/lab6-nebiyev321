@@ -1,4 +1,4 @@
-package az.edu.ada.wm2.model.entity;
+package az.edu.ada.wm2.lab6.model;
 
 import jakarta.persistence.*;
 import lombok.*;

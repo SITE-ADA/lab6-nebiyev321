@@ -1,6 +1,6 @@
 package az.edu.ada.wm2.lab6.controller;
 
-import az.edu.ada.wm2.lab6.model.Product;
+import az.edu.ada.wm2.lab6.model.*;
 import az.edu.ada.wm2.lab6.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
